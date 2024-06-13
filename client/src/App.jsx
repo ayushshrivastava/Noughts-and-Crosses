@@ -178,7 +178,7 @@ const App = () => {
         </div>
       </div>
       <div>
-        <h1 className="game-heading water-background">Tic Tac Toe</h1>
+        <h1 className="game-heading water-background">Noughts-Crosses</h1>
         <div className="square-wrapper">
           {gameState.map((arr, rowIndex) =>
             arr.map((e, colIndex) => {
